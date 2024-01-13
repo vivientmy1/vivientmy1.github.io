@@ -14,7 +14,7 @@ let myHeading = document.querySelector("h1");
 
 function setUserName() {
     const myName = prompt("Please enter your name.");
-    if (!myname){
+    if (!myName){
         setUserName();
     }else{
     localStorage.setItem("name", myName);
